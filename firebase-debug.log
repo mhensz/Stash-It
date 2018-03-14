@@ -1,0 +1,64 @@
+[debug] [2018-03-14T00:34:01.972Z] ----------------------------------------------------------------------
+[debug] [2018-03-14T00:34:01.988Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marjie\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-14T00:34:01.988Z] CLI Version:   3.17.6
+[debug] [2018-03-14T00:34:01.988Z] Platform:      win32
+[debug] [2018-03-14T00:34:01.988Z] Node Version:  v8.9.4
+[debug] [2018-03-14T00:34:01.988Z] Time:          Tue Mar 13 2018 19:34:01 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:34:01.988Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-14T00:34:02.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-14T00:34:02.034Z] > authorizing via signed-in user
+[debug] [2018-03-14T00:34:02.050Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/stash-it-e75bd  
+  
+ Tue Mar 13 2018 19:34:02 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:34:02.738Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T00:34:02.738Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/stash-it-e75bd/tokens  
+  
+ Tue Mar 13 2018 19:34:02 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:34:03.367Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T00:34:03.367Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/stash-it-e75bd  
+  
+ Tue Mar 13 2018 19:34:03 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:34:03.698Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Marjie\lc101\Stash-It'...
+[info] 
+[debug] [2018-03-14T00:34:03.702Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/499464668272/clients/_:getWebAppConfig  
+  
+ Tue Mar 13 2018 19:34:03 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:34:04.118Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-14T00:41:44.485Z] ----------------------------------------------------------------------
+[debug] [2018-03-14T00:41:44.501Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marjie\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-14T00:41:44.501Z] CLI Version:   3.17.6
+[debug] [2018-03-14T00:41:44.501Z] Platform:      win32
+[debug] [2018-03-14T00:41:44.501Z] Node Version:  v8.9.4
+[debug] [2018-03-14T00:41:44.501Z] Time:          Tue Mar 13 2018 19:41:44 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:41:44.501Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-14T00:41:44.532Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-14T00:41:44.547Z] > authorizing via signed-in user
+[debug] [2018-03-14T00:41:44.547Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/stash-it-e75bd  
+  
+ Tue Mar 13 2018 19:41:44 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:41:45.457Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T00:41:45.457Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/stash-it-e75bd/tokens  
+  
+ Tue Mar 13 2018 19:41:45 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:41:45.955Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T00:41:45.955Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/stash-it-e75bd  
+  
+ Tue Mar 13 2018 19:41:45 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:41:46.221Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Marjie\lc101\Stash-It'...
+[info] 
+[debug] [2018-03-14T00:41:46.237Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/499464668272/clients/_:getWebAppConfig  
+  
+ Tue Mar 13 2018 19:41:46 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-14T00:41:46.926Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
