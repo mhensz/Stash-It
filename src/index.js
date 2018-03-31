@@ -2,13 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import About from './About';
+import How from './How';
 import registerServiceWorker from './registerServiceWorker';
-import { Router, Route } from 'react-router'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+console.log(Router);
+
+
 
 /*ReactDOM.render(<App />, document.getElementById("root"));*/
 ReactDOM.render((
-    <Router history={hashHistory}>
-        <Route path="/" component={App}/>
+    <Router>
+        <Switch>
+            <Route exact path='/' component={App} />
+            <Route path='/about' component={About} />
+            <Route path='/howitworks' component={How} />
+        </Switch>
     </Router>
-), document.getElementById('app'))  
+
+), document.getElementById('root'));
 registerServiceWorker();
+//<App />

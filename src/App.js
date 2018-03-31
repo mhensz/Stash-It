@@ -1,34 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import * as firebaseui from'firebaseui';
-var firebase = require('firebase');
+//import { base } from './rebase.js';
+const firebase = require('firebase');
 
-  //Initialize Firebase
-  let config = {
-    apiKey: "AIzaSyAjFruoklcMh8H6tJMMzJ_JU-3LH9x-ODs",
-    authDomain: "stash-it-e75bd.firebaseapp.com",
-    databaseURL: "https://stash-it-e75bd.firebaseio.com",
-    projectId: "stash-it-e75bd",
-    storageBucket: "stash-it-e75bd.appspot.com",
-    messagingSenderId: "499464668272"
-  };
-  firebase.initializeApp(config);
+const App = () => (
+/*  <div>
+    <Header />
+    <Main />
+  </div>
+*/
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload. Testing.
-        </p>
-      </div>
-    );
-  }
-}
+
+<div>
+
+  <a href="/signup">Sign Up</a> | <a href="/signin">Sign In</a>
+  <h1>Stash It</h1>
+  <nav>
+    <ul>
+      <a href="/about"><li>About Us</li></a>
+      <a href="/howitworks"><li>How It Works</li></a>
+      <a href="/contact"><li>Contact Us</li></a>
+    </ul>
+  </nav>
+</div>
+  
+
+)
 
 export default App;
