@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import * as firebaseui from'firebaseui';
-//import { base } from './rebase.js';
+import { base } from './rebase.js';
 const firebase = require('firebase');
+
+//function for pushing into to firebase.  Does work. Replaced everything in user database
+function addUser(){
+  base.post('users/', {
+    data: {name: 'User1', age:30},
+  });
+}
 
 const App = () => (
 /*  <div>
@@ -23,8 +30,10 @@ const App = () => (
     </ul>
   </nav>
 </div>
-  
+
+
 
 )
+
 
 export default App;

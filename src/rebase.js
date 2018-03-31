@@ -3,12 +3,12 @@ import firebase from 'firebase'
 
   //Initialize Firebase
   const config = {
-    apiKey: process.env.REACT_APP_FIREBASE_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_DOMAIN,
-    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_SENDER_ID
+   apiKey: "AIzaSyAjFruoklcMh8H6tJMMzJ_JU-3LH9x-ODs",
+   authDomain: "stash-it-e75bd.firebaseapp.com",
+   databaseURL: "https://stash-it-e75bd.firebaseio.com",
+   projectId: "stash-it-e75bd",
+   storageBucket: "stash-it-e75bd.appspot.com",
+   messagingSenderId: "499464668272"
   };
 
   const app = firebase.initializeApp(config);
