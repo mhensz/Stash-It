@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as firebaseui from'firebaseui';
 import { base } from './rebase.js';
-import Header from "./Header";
+import { Header } from "./Header";
 const firebase = require('firebase');
 
 
@@ -13,11 +13,6 @@ function addUser(){
 }
 
 const App = () => (
-/*  <div>
-    <Header />
-    <Main />
-  </div>
-*/
 
 
 <Header />
