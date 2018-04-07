@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as firebaseui from'firebaseui';
 import { base } from './rebase.js';
 import { Header } from "./Header";
+import Bootstrap from 'react-bootstrap'
 const firebase = require('firebase');
 
 
