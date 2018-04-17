@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as firebaseui from'firebaseui';
 import { base } from './rebase.js';
-import { Header } from "./Header";
+import { Header } from "./Components/Header";
 const firebase = require('firebase');
 
 
@@ -12,14 +12,24 @@ function addUser(){
   });
 }
 
-const App = () => (
+//add authenication so that it can be pasted to state
+export class App extends Component {
+  constructor(props){
+    super(props);
 
+    this.state ={
+      authed: true,
+    };
+  }
 
-<Header />
-
-
-
-)
-
+    render() {
+      return (
+        <Header auth= {this.state.authed} />
+      )
+    }
+}
 
 export default App;
+
+
+
