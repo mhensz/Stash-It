@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import About from './Components/About';
 import How from './Components/How';
+import Form from './Components/Form';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -18,6 +19,7 @@ ReactDOM.render((
             <Route exact path='/' component={App} />
             <Route path='/about' component={About} />
             <Route path='/howitworks' component={How} />
+            <Route path='/form' component={Form} />
         </Switch>
     </Router>
 
