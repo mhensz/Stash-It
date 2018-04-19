@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import '../CSS/Form.css';
 //form that will take and display yarn information
 
 export class Form extends Component {
@@ -24,7 +25,8 @@ export class Form extends Component {
         this.setState({[e.target.name]: e.target.value});
     }
     
-    handleAddTag(currentState) {
+    handleAddTag(currentState,e) {
+        e.preventDefault();
         this.setState((currentState) => {
             return {
                 tags: currentState.tags.concat([this.state.tagInput])
@@ -39,8 +41,8 @@ export class Form extends Component {
         console.log(this.state);
         return(
             <div>
-                <form>
-                    <label>Brand:
+                <form className='form-container'>
+                    <label className='label'>Brand:
                       <input type='text' name='brand' onChange={this.handleChange}/>
                     </label>
                     <label>Name:
@@ -66,7 +68,7 @@ export class Form extends Component {
                     </label>
                     <label>Tags:
                       <input type='text' name='tagInput' onChange={this.handleChange} />
-                      <button  onClick={this.handleAddTag}>Add</button>
+                      <button  onClick={(e) => this.handleAddTag(this, e)}>Add</button>
                     </label>
                     <label>Comments:
                       <textarea name='comments'onChange={this.handleChange}></textarea>
